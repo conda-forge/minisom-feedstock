@@ -1,5 +1,5 @@
 {% set name = "minisom" %}
-{% set version = "2.3.5" %}
+{% set version = "2.3.6" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: c4e65e0a6a50170c163e9c0408f77464871e7b3007ad0cd87e178cdaf3db2ce3
+  sha256: 1fca9cfeef62b221a89930ad3422b7a24a2bd66ae43ef97332e165f5975c09f1
 
 build:
   noarch: python
