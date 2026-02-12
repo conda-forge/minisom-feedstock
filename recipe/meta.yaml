@@ -19,7 +19,7 @@ requirements:
     - python
     - pip
   run:
-    - python >=3.6
+    - python
     - numpy >=1.16
 
 test:
@@ -44,5 +44,3 @@ extra:
   recipe-maintainers:
     - AntoineD
     - maclandrol
-    - AntoineD
-
